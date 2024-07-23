@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <div>
+        <label for="fname">first name</label>
+        <input type="text" id="fname" name="fname" placeholder="" required> 
+        </div>
+        <br>
+        <div>
+        <label for="lname">last name</label>
+        <input type="text" id="lname" name="lname" placeholder="" required> 
+        </div>
+        <br>
+
+
+        <div>
+            <label for="pass">password</label>
+            <input type="password" id="pass" name="pass" maxlength="8" required>
+            
+            
+
+        </div>
+        <br>
+        <div>
+            <label for="email">email</label>
+            <input type="emai" id="email" name="email" required>
+        </div>
+        <br>
+        <div>
+            <label for="phone">phone #</label>
+            <input type="tel" name="phone" id="phone" placeholder="07063952093" required>
+        </div>
+        <br>
+        <div>
+            <label for="bdate">birthday</label>
+            <input type="date" id="bdate" name="bdate" placeholder="" required>
+        </div>
+        <br>
+        <div>
+            <label for="quantity">quantity</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="99" placeholder="" required>
+        </div>
+        <br>
+        <div>
+            <label for="title"></label>
+
+            <label for="mr.">MR.</label>
+            <input type="radio" id="mr." name="title" value="MR">
+
+            <label for="mrs.">MRS.</label>
+            <input type="radio" id="mrs." name="title" value="MRS">
+
+            <label for="sir.">SIR.</label>
+            <input type="radio" id="sir." name="title" value="SIR">
+        </div>
+        <br>
+        <div>
+            <label for="payment">payment</label>
+            <select name="payment" id="payment">
+                <option value="visa">visa card</option>
+                <option value="ATM">ATM card</option>
+        </div>
+        <br>
+        
+        <div>
+            <label for="subscribe">subscribe:</label>
+            <input type="checkbox" name="subscribe" id="subscribe">
+        </div>
+        <br>
+        <div>
+            <input type="range" name="" id="">
+        </div>
+        <br>
+        <div>
+            <input type="button" value="">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="">
+        </div>
+
+        <div>
+            <input type="reset">
+            
+        </div>
+        <br>
+
+
+
+        <div>
+            <input type="submit">
+        </div>
+        <br>
+        <div>
+            <fieldset>
+            <legend>legend</legend>
+        <textarea name="message" id="message" rows="10" cols=" "10>the boy was siting down </textarea>
+        </div>
+        </fieldset>
+        
+        <br>
+        <div>
+            <input list="browsers" name="browsers">
+        <datalist id="browsers">
+        <option value="firefox"></option>
+        <option value="chrome"></option>
+        <option value="opera"></option>
+        </datalist>
+        </div>
+        <div>
+            <input type="radio" name="fav lanuage" id="html" value="html">
+        </div>
+        <br>
+        <div>
+            <label for="vehicle">this is a bike</label>
+            <input type="checkbox" name="" id="checkbox" name="vehicle" value="bike">
+            <br>
+            <label for="vehicle">this is a car</label>
+            <input type="checkbox" name="" id="checkbox" name="vehicle" value="car">
+            <br>
+            <input type="submit" value="submit">
+        </div>
+
+
+    </form>
+</body>
+</html>

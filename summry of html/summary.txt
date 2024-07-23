@@ -1,0 +1,40 @@
+ Here are the summary of thing i learnt in Forms . html
+ In HTML, a form is a collection of input elements, such as text fields, checkboxes, radio buttons, and submit buttons,that allow users to interact with a web page or application.
+  Forms are used to collect user input,such as login credentials, search queries, or contact information.
+
+  THE basic structure of an html formm include
+
+1. <form> element: This is the container element that wraps all the input elements.
+2. Input elements: These are the individual fields, such as text inputs, checkboxes, or radio buttons, that collect user data.
+3. Labels: These are optional text descriptions that accompany each input element to help users understand what information is being requested.
+4. Submit button: This is the button that users click to submit the form data.
+
+Here are some list of common form elements
+- <input type="text">: Text input field
+- <input type="checkbox">: Checkbox
+- <input type="radio">: Radio button
+- <select>: Dropdown menu
+- <textarea>: Multiline text input field
+- <button type="submit">: Submit button
+
+the Labels tag defines a lebel for many form element
+
+the lebel tag specifies the ID an input element to associate with the lebel
+
+The radio input type! A radio input is a type of input element that allows users to select one option from a group of mutually exclusive choices. Here's a breakdown of the radio input type:
+<input type="radio" id="radioID">
+ THE novalid atribute is a boolean atribute
+ when presented,it soecifies that the form data Input shold not  be validated when submited
+ The input formenctype attribute specifies how the form-data should be encoded when submitted (only for forms with method="post").
+
+This attribute overrides the enctype attribute of the <form> element.
+The formenctype attribute works with the following input types: submit and image
+
+The legend attribute is used to define a caption or title for a fieldset element, which is a container for a group of form fields. The legend attribute is
+ displayed as a header or title for the fieldset, providing a clear and concise description of the fields within.
+
+
+
+
+
+
